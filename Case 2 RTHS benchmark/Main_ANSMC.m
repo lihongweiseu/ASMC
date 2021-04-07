@@ -47,7 +47,8 @@ for E_sw=1:E_swN
             
             z1=1600; z2=2;
             Psi_hat0=(alpha_hat0-[z1,z2])';
-            theta0=0.1; k0=1000000;
+            theta0=10; k0=1000000;
+            % for some perturbed cases that might not converge, decrease k0 and try again.
             F3_simulation_ASMC
             F4_evaluation
             J{E_sw}(2*ii,:,Building_c)=eval_crit;
