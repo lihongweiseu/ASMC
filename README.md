@@ -1,8 +1,11 @@
 # ASMC
 Matlab code for the paper "An adaptive sliding mode control system and its application in real-time hybrid simulation"
 
-Case 1:
+Case 1: control plant with time-varying parameters
 Run main_fun.m
+
+Case 2: Control plant with non-parametric model erro
+Run case2.m
 
 Case 3 RTHS benchmark
 1. Run Actuator_id.m to plot the frequency response of the orignal and reduced models of the control plant.
